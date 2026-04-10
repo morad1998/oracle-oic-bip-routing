@@ -1,0 +1,1 @@
+fn:boolean(fn:contains(fn:upper-case(oraext:decodeBase64($Run_BIP_Report//*:reportBytes)), '<VALIDATION_FLAG>Y</VALIDATION_FLAG>'))
